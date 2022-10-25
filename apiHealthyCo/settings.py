@@ -86,12 +86,12 @@ WSGI_APPLICATION = 'apiHealthyCo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE':'django.db.backends.mysql',
-        'NAME':'healthydb',
-        'USER':'root',
-        'PASSWORD':'',
-        'HOST':'127.0.0.1',
-        'PORT':'3306',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'heroku_61659751d000f6b',
+        'USER': 'b2df87715109e8',
+        'PASSWORD': 'e94f3861',
+        'HOST': 'us-cdbr-east-06.cleardb.net',
+        'PORT': '3306'
     }
 }
 
