@@ -165,3 +165,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 X_FRAME_OPTIONS = "SAMEORIGIN"
 SILENCED_SYSTEM_CHECKS = ["security.W019"]
+
+# Configure Django App for Heroku.
+import django_heroku
+django_heroku.settings(locals())
