@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-jx6^+wj3ep+l3w5_kauba*et(m9b20!hph6oa+!c3&(p76^x&p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-TEMPLATE_DEBUG = True
+
 
 ALLOWED_HOSTS = ['api-products-healthy.herokuapp.com']
 
