@@ -9,7 +9,8 @@ class ProductosSerializer(serializers.ModelSerializer):
             "id",
             "nombre",
             "price",
-            "descripcion"
+            "descripcion",
+            "imagen"
         )
         
 # class UserSerializer(serializers.ModelSerializer):
