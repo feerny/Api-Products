@@ -5,14 +5,7 @@ from healthyapp.models import Producto
 class ProductosSerializer(serializers.ModelSerializer):
     class Meta:
         model= Producto
-        fields =(
-            "id",
-            "nombre",
-            "price",
-            "descripcion",
-            "cantidad",
-            "imagen"
-        )
+        fields ='__all__'
         
 # class UserSerializer(serializers.ModelSerializer):
 #     class Meta:
