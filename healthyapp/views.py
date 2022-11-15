@@ -83,6 +83,7 @@ def Categoria_lista(request):
    
 @api_view(['GET','PUT','DELETE']) 
 def Categoria_detalle(request,pk):
+    
     try:
         categoria = Categoria.objects.get(pk=pk)
     except Categoria.DoesNotExist:
